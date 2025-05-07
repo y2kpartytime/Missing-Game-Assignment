@@ -45,12 +45,12 @@ TagManager:
   - name: Ground
     uniqueID: 3589768775
     locked: 0
+  - name: Decoration
+    uniqueID: 2025767413
+    locked: 0
   - name: Collision
     uniqueID: 402499519
     locked: 0
   - name: Player
     uniqueID: 3850759941
-    locked: 0
-  - name: Decoration
-    uniqueID: 2025767413
     locked: 0

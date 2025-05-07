@@ -17,7 +17,7 @@ public class PlayerMovement : MonoBehaviour
         movement.y = Input.GetAxisRaw("Vertical");
         if (movement.magnitude > 0.1f)
         {
-            transform.up     = movement.normalized;
+            transform.up = movement.normalized;
         }
     }
 
