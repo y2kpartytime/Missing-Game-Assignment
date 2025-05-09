@@ -12,6 +12,7 @@ public class PillarScript : MonoBehaviour
     {
         if (collision.CompareTag("Pillar"))
         {
+            GameManager.Instance.foundAndrea = true;
             Andrea.SetActive(true);
         }
     }

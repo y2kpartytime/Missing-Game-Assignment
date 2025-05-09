@@ -8500,6 +8500,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Person: {fileID: 1001851024}
+  Gem: {fileID: 840813801}
 --- !u!61 &1289506476
 BoxCollider2D:
   m_ObjectHideFlags: 0

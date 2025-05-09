@@ -11,6 +11,7 @@ public class ExitCabin : MonoBehaviour
         {
             if (collision.CompareTag("Player") && GameManager.Instance.hasRedGem)
             {
+                GameManager.Instance.foundMartin = true;
                 SceneManager.LoadScene(1);
             }
         }

@@ -7707,8 +7707,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogLines:
-  - '"About time that old codger sent someone after us. What took you so long? Anyways,
-    thanks."'
+  - '"About time that old codger sent someone after us. What took you so long anyways?
+    I bet they''re all stuck like me."'
   dialogBox: {fileID: 569941422}
 --- !u!61 &507586286
 BoxCollider2D:

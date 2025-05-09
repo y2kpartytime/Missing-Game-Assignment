@@ -11,6 +11,7 @@ public class ExitLodge : MonoBehaviour
         {
             if (collision.CompareTag("Player") && GameManager.Instance.hasYellowGem)
             {
+                GameManager.Instance.foundHarry = true;
                 SceneManager.LoadScene(1);
             }
         }
