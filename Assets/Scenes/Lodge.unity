@@ -733,7 +733,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4a65ba99b5d6b34f903bca774500f16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hasGem: 0
 --- !u!1 &840813801
 GameObject:
   m_ObjectHideFlags: 0
@@ -8500,8 +8499,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2d4124a8dd44d44b94746c726375d69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Gem: {fileID: 840813801}
-  Harry: {fileID: 1001851024}
+  Person: {fileID: 1001851024}
 --- !u!61 &1289506476
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8641,8 +8639,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogLines:
   - '"Phew, thanks for finding me! I was messing around with the gems but I got trapped."'
-  - '"Im not sure if you found the rest but if you have, go back and talk to our
-    teacher!"'
+  - '"There must be more of us out there. I''m sure you''ll work it out."'
   dialogBox: {fileID: 494336765}
 --- !u!61 &2013649336
 BoxCollider2D:

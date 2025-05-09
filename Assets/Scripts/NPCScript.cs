@@ -30,7 +30,7 @@ public class NPCScript : MonoBehaviour
             }
             if (GameManager.Instance.foundAndrea &&GameManager.Instance.foundHarry && GameManager.Instance.foundMartin && GameManager.Instance.foundOldMan)
             {
-                SceneManager.LoadScene(3);
+                SceneManager.LoadScene(4);
             }
         }
     }

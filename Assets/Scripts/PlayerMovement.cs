@@ -7,7 +7,7 @@ public class PlayerMovement : MonoBehaviour
     public float moveSpeed = 5f;
     private Rigidbody2D rb;
     private Vector2 movement;
-    public bool hasGem = false;
+    
 
     void Start()
     {
@@ -29,12 +29,16 @@ public class PlayerMovement : MonoBehaviour
         rb.MovePosition(rb.position + movement.normalized * moveSpeed * Time.fixedDeltaTime);
     }
 
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Gem"))
+        if (collision.CompareTag("YellowGem"))
         {
-            hasGem = true;
-            print("Picked up gem!");
+            GameManager gameManager = collision.GetComponent<GameManager>();
+            if (gameManager != null && gameManager.hasYellowGem)
+                print("Picked up gem!");
+                gameManager.hasYellowGem = true;
         }
     }
+
 }

@@ -7,7 +7,9 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
 
-    public bool hasGem;
+    public bool hasYellowGem;
+    public bool hasRedGem;
+
     public bool foundOldMan;
     public bool foundHarry;
     public bool foundAndrea;
@@ -25,8 +27,4 @@ public class GameManager : MonoBehaviour
             Destroy(gameObject);
         }
     }
-
-
-    
-
 }

@@ -11,6 +11,8 @@ TagManager:
   - Harry
   - Martin
   - OldMan
+  - RedGem
+  - YellowGem
   layers:
   - Default
   - TransparentFX
