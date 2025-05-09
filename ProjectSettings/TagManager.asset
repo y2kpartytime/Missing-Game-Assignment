@@ -6,6 +6,11 @@ TagManager:
   tags:
   - Matches
   - Pillar
+  - Gem
+  - Andrea
+  - Harry
+  - Martin
+  - OldMan
   layers:
   - Default
   - TransparentFX

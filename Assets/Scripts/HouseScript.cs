@@ -5,13 +5,18 @@ using UnityEngine.SceneManagement;
 
 public class HouseScript : MonoBehaviour
 {
-    public bool hasGem;
+    public BoxCollider2D lodge;
+    public BoxCollider2D cabin;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player") && hasGem == true)
+        if (collision.CompareTag("Player"))
         {
-            SceneManager.LoadScene(2);
+            PlayerMovement playerscript = collision.GetComponent<PlayerMovement>();
+            if (playerscript != null && playerscript.hasGem)
+            {
+                SceneManager.LoadScene(1);
+            }
         }
     }
 }
